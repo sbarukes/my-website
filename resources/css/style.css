@@ -1,0 +1,70 @@
+/*-----------------------*/
+/* Basic Setup */
+/*-----------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px
+}
+
+html, 
+body {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------*/
+/* Header */
+/*-----------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/city-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.dev-textbox {
+    position: absolute;
+    width: 1080px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:visited,
+.main-nav li a:link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 0px;
+}
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 2px solid #008dd8
+}
