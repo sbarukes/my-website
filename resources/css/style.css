@@ -17,6 +17,22 @@ body {
     font-size: 20px;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #008dd8;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px
+}
 
 
 
@@ -52,6 +68,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 50px;
+    margin-right: 2%;
 }
 .main-nav li {
     display: inline-block;
@@ -67,4 +84,27 @@ header {
 .main-nav li a:active,
 .main-nav li a:hover {
     border-bottom: 2px solid #008dd8
+}
+
+/*-----------------------*/
+/* About Me Section */
+/*-----------------------*/
+
+.my-image {
+    border-radius: 50%;
+    height: 700px;
+    float: right;
+    margin-right: 80px;
+}
+.about-me-box {
+    text-align: left;
+    margin-top: 30px;
+}
+.about-me-box p:first-of-type {
+    padding-bottom: 4px;
+    word-spacing: 2px;
+    padding-top: 100px;
+}
+.about-me-box p {
+    font-size: 110%
 }
