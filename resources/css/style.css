@@ -59,7 +59,7 @@ header {
 }
 .dev-textbox {
     position: absolute;
-    width: 1080px;
+    width: 1140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -101,10 +101,27 @@ header {
     margin-top: 30px;
 }
 .about-me-box p:first-of-type {
-    padding-bottom: 4px;
     word-spacing: 2px;
     padding-top: 100px;
 }
 .about-me-box p {
-    font-size: 110%
+    font-size: 110%;
+    padding-bottom: 6px;
+}
+
+/*-----------------------*/
+/* Skills */
+/*-----------------------*/
+.skill-box {
+    border-radius: 30%;
+    width: 90%;
+    margin-left: 65%;
+}
+.skill-box ul {
+    padding-left: 10%;
+    padding-top: 5%
+}
+.icon-dev {
+    color: #008dd8;
+    font-size: 250%;
 }
